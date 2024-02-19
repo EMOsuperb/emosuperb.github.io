@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>EMO SUPERB</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="assets/figures/face-screaming-in-fear.svg" />
+</head>
+
+<body class="homepage is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<section id="header">
+			<!-- Logo -->
+			<h1><a href="index.html">&#128512; &#128545; &#128528; &#128561; EMO SUPERB &#128580; &#129314; &#128557;
+					&#128559;</a></h1>
+
+			<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>Typed Description</h2>
+					<p style="font-weight: 700">Natural language description as emotion annotation
+					</p>
+					<br />
+					<ul class="actions">
+						<li><a href="index.html" class="button">EMO-SUPERB</a></li>
+						<li><a href="typed_description.html" class="button">Typed Description</a></li>
+						<li><a href="standardization.html" class="button">Standard Dataset Partition</a></li>
+						<li><a href="https://github.com/EMOsuperb/EMO-SUPERB-submission" class="button"
+								style="background-color:rgb(28, 194, 139)">Code</a></li>
+					</ul>
+				</header>
+			</section>
+
+			<section>
+				<div class="container">
+					<!-- Content -->
+					<article class="box post">
+						<img style="margin-bottom: 20px" width=100% src="assets/figures/typed_description.svg" alt="" />
+						<p>
+							Labeling process using ChatGPT. Three in-
+							puts are Typed description, Reference distribution,
+							and Prompt. Two outputs are Reason and Adjusted
+							distribution. Notice that the reference distribution is
+							calculated by the number of votes for emotion classes.
+							In the raw annotations of an example, there are instances
+							of disgust, contempt, fear, neutrality, and happiness (*6),
+							resulting in values of 0.6 for happiness and 0.1 for each
+							of the remaining appearing emotions.
+						</p>
+						<header>
+							<h2>Performance Improvment with ChatGPT Relabeling</h2>
+						</header>
+						<img style="margin-bottom: 20px" width=50% src="assets/figures/typed_fig.jpg" alt="" />
+						<p>
+							The table presents macro-F1 scores using the ChatGPT relabled data.
+						</p>
+						<hr>
+						<header>
+							<h2>Example Relabeled Data</h2>
+						</header>
+						<img style="margin-bottom: 20px" width=70% src="assets/figures/typed_heatmap.svg" alt="" />
+					</article>
+				</div>
+			</section>
+
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container"></div>
+		</section>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
