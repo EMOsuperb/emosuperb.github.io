@@ -2,7 +2,7 @@
 
 Project website and leaderboard for **EMO-SUPERB** (EMOtion Speech Universal PERformance Benchmark), served at [emosuperb.github.io](https://emosuperb.github.io/).
 
-Benchmark code lives in [EMO-SUPERB-submission](https://github.com/EMOsuperb/EMO-SUPERB-submission).
+Benchmark code lives in [EMO-SUPERB](https://github.com/ag027592/EMO-SUPERB).
 
 ## Pages
 
